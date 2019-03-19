@@ -1,0 +1,34 @@
+locale: "ru-RU"
+title: Зароботок в виртуальном онлайн казино # Title of your site
+url: "http://adriano-chilintano.github.io" # the base hostname & protocol for your site
+baseurl: "http://adriano-chilintano.github.io" # the subpath of your site, e.g. /blog/
+
+
+# Default description in social shares for the jekyll-seo-tag gem
+description: > # this means to ignore newlines until "baseurl:"
+  Узнай как найти и обыграть онлайн-казино, делюсь личным опытом и даю дельные советы.
+
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Fockus
+
+# Social details for the jekyll-seo-tag gem
+social:
+  name: Fockus
+  links:
+    - https://adriano-chilintano.github.io
+
+permalink: pretty
+
+gems:
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-paginate"
+  - "jekyll-sitemap"
+
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - RSS
