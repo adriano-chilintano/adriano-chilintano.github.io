@@ -4,6 +4,7 @@ title: Стратегия в покере : игра 1 на 1
 date: 2019-02-15 T14:37:44.000Z
 categories: play1sv1
 ---
+
 <img src="/images/fulls/1na1.jpg" class="fit image">
 
 ## СТРАТЕГИЯ В ПОКЕРЕ: ИГРА 1 НА 1
