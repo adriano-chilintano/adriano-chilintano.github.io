@@ -13,6 +13,6 @@ title: About us
 <h2>Мои контакты</h2>
 <p>Личный Email: <span> Marsim@nueva-york.biz</span></p>
 <p>Партнерка: <span> sales@nueva-york.biz</span></p>
-<li><a {% if account.new_window %}target="_blank"{% endif %} herf="{% include relative-src.html src=www.facebook.com/maxim.lykov %}"><p>Facebook - <span> Максим Лыков</span></p></a></li>
+<li><a {% if account.new_window %}target="_blank"{% endif %} herf="{% include relative-src.html src=about %}"><p>Facebook - <span> Максим Лыков</span></p></a></li>
 
 </div>
