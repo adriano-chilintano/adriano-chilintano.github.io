@@ -6,11 +6,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-.blog-img {
+.blog-img  img{
 	width: 50%;
 	text-align: center;
 	vertical-align: middle;
-	display: inline-block;
 	height: auto;
 }
 html, body, div, span, applet, object,
