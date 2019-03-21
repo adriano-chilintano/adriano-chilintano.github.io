@@ -20,6 +20,12 @@ social:
 
 permalink: pretty
 
+menu:
+  - title:  Блог
+    url:  /
+  - title:  О блоге
+    url:  /about.html
+
 gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"
