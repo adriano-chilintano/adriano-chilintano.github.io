@@ -1,7 +1,8 @@
 ---
 layout: default
-title: О блоге
+title: About us
 ---
+
 <div id="main">
        <div class="menu"><p><a herf="http://www.nueva-york.biz/">Главная</a></p>
         <p><a herf="http://www.nueva-york.biz/about.html">О Блоге</a></p>
