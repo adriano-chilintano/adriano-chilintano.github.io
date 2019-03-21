@@ -1,15 +1,18 @@
 <!DOCTYPE HTML>
-<!--
-  Strata by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
   <head>
     <title>Онлайн покер - все полезные советы новичкам</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta http-equiv="content-language" content="{{ site.locale }}" />
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}">
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
   <body class="is-preload">
 
@@ -35,28 +38,13 @@
           </section>
 
         <!-- Two -->
- <section>
-    {% for post in site.posts limit:1 %}
-      <header>
-        <h1>{{ post.title }}</h1>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </header>
-      <section>
-        {{ post.content }}
-        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
-      </section>
-    {% endfor %}
-  </section>
-
   <section>
     <div class="row">
-      {% for post in site.posts offset:1 %}
         <article class="{% cycle '6u', '6u$' %} 12u(small)">
           <header>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url }}"></a></h2>
           </header>
           <section>
-            {{ post.excerpt }}
           </section>
           <footer>
             <ul class="actions">
@@ -64,7 +52,6 @@
             </ul>
           </footer>
         </article>
-      {% endfor %}
     </div>
   </section>
         <!-- Three -->
