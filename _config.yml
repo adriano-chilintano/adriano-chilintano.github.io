@@ -1,30 +1,28 @@
-locale: "ru-RU"
-title: Онлайн покер - все полезные советы новичкам # Title of your site
-url: "http://adriano-chilintano.github.io" # the base hostname & protocol for your site
-baseurl: "http://adriano-chilintano.github.io" # the subpath of your site, e.g. /blog/
-
+locale: "en-US"
+title: Strata # Title of your site
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Узнай как найти и обыграть онлайн-казино, делюсь личным опытом и даю дельные советы.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: Maksim
+  name: Your Name
+  email: your-email@domain.com
+  twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Maksim
+  name: Strata Reloaded Template
   links:
-    - https://www.facebook.com/maxim.lykov
+    - https://github.com/comfusion/strata-reloaded-jekyll-template
 
 permalink: pretty
-
-menu:
-  - title:  Блог
-    url:  /
-  - title:  О блоге
-    url:  /about.html
 
 gems:
   - "jekyll-feed"
@@ -32,9 +30,23 @@ gems:
   - "jekyll-paginate"
   - "jekyll-sitemap"
 
+# Jekyll SEO Tag
+webmaster_verifications:
+  google: # 1234
+  bing: # 1234
+  alexa: # 1234
+  yandex: # 1234
 
 # -----------
 # CloudCannon
 
 social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
   - RSS
