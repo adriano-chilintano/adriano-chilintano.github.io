@@ -1,5 +1,5 @@
 locale: "ru-RU"
-title: Зароботок в виртуальном онлайн казино # Title of your site
+title: Онлайн покер - все полезные советы новичкам # Title of your site
 url: "http://adriano-chilintano.github.io" # the base hostname & protocol for your site
 baseurl: "http://adriano-chilintano.github.io" # the subpath of your site, e.g. /blog/
 
@@ -10,13 +10,13 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: Fockus
+  name: Maksim
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Fockus
+  name: Maksim
   links:
-    - https://adriano-chilintano.github.io
+    - https://www.facebook.com/maxim.lykov
 
 permalink: pretty
 
