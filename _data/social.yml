@@ -1,8 +1,9 @@
 - name: Facebook
-  link: 'https://adriano-chilintano.github.io'
+  link: 'https://www.facebook.com/maxim.lykov'
   social_icon: Facebook
   new_window: true
 - name: RSS
   link: '/feed.xml'
   social_icon: RSS
   new_window: true
+
