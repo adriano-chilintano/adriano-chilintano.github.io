@@ -1,6 +1,6 @@
-locale: "ru-Ru"
+locale: "ru-RU"
 title: Как заработать онлайн покере # Title of your site
-url: "http://www.nueva-york.biz/" # the base hostname & protocol for your site
+url: "http://www.nueva-york.biz" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
@@ -27,6 +27,15 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
+  - "jekyll-minifier"
+
+plugins: 
+  - jekyll-minifier
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+
 
 # Jekyll SEO Tag
 webmaster_verifications:
